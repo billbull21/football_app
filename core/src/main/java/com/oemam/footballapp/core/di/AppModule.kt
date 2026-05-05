@@ -54,7 +54,7 @@ val networkModule = module {
 
         OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
-//            .sslSocketFactory(sslContext.socketFactory, x509TrustManager)
+            .sslSocketFactory(sslContext.socketFactory, x509TrustManager)
             .build()
     }
     single {
