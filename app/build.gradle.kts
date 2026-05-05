@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.oemam.footballapp"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.oemam.footballapp"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
