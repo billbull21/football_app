@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Football App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Explore football teams &amp; favorites</string>
+    <string name="title_myclub">MyClub</string>
+    <string name="title_favorites">Favorites</string>
+
+    <string name="power_connected">Power connected!</string>
+    <string name="power_disconnected">Power disconnected!</string>
+</resources>
