@@ -49,6 +49,12 @@ android {
         viewBinding = true
     }
     dynamicFeatures += setOf(":favorites")
+
+    lint {
+        abortOnError = true
+        ignoreWarnings = true
+        checkReleaseBuilds = true
+    }
 }
 
 dependencies {

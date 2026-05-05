@@ -25,6 +25,11 @@ android {
         viewBinding = true
     }
 
+    lint {
+        abortOnError = true
+        ignoreWarnings = true
+        checkReleaseBuilds = true
+    }
 }
 
 dependencies {
